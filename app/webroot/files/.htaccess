@@ -1,0 +1,8 @@
+SetEnvIfNoCase Request_URI \.(og[gav]|mp4|m4a|webm)$ no-gzip dont-vary
+
+AddType video/ogg .ogv
+AddType video/mp4 .mp4
+AddType video/x-m4v .m4v
+AddType video/webm .webm
+AddType text/plain .srt
+AddType application/x-shockwave-flash .swf

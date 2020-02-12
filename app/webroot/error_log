@@ -1,0 +1,104 @@
+[06-Feb-2020 19:01:50 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'ErrorHandler' not found in /home/bizboxmx/betty.bizbox.mx/cake/libs/cake_object.php:201
+Stack trace:
+#0 /home/bizboxmx/betty.bizbox.mx/cake/libs/controller/component.php(215): CakeObject->cakeError('missingComponen...', Array)
+#1 /home/bizboxmx/betty.bizbox.mx/cake/libs/controller/component.php(78): Component->_loadComponents(Object(WebController))
+#2 /home/bizboxmx/betty.bizbox.mx/cake/libs/controller/controller.php(483): Component->init(Object(WebController))
+#3 /home/bizboxmx/betty.bizbox.mx/cake/dispatcher.php(186): Controller->constructClasses()
+#4 /home/bizboxmx/betty.bizbox.mx/cake/dispatcher.php(171): Dispatcher->_invoke(Object(WebController), Array)
+#5 /home/bizboxmx/betty.bizbox.mx/app/webroot/index.php(83): Dispatcher->dispatch()
+#6 {main}
+  thrown in /home/bizboxmx/betty.bizbox.mx/cake/libs/cake_object.php on line 201
+[06-Feb-2020 19:40:47 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'ErrorHandler' not found in /home/bizboxmx/betty.bizbox.mx/cake/libs/cake_object.php:201
+Stack trace:
+#0 /home/bizboxmx/betty.bizbox.mx/cake/libs/controller/component.php(215): CakeObject->cakeError('missingComponen...', Array)
+#1 /home/bizboxmx/betty.bizbox.mx/cake/libs/controller/component.php(78): Component->_loadComponents(Object(WebController))
+#2 /home/bizboxmx/betty.bizbox.mx/cake/libs/controller/controller.php(483): Component->init(Object(WebController))
+#3 /home/bizboxmx/betty.bizbox.mx/cake/dispatcher.php(186): Controller->constructClasses()
+#4 /home/bizboxmx/betty.bizbox.mx/cake/dispatcher.php(171): Dispatcher->_invoke(Object(WebController), Array)
+#5 /home/bizboxmx/betty.bizbox.mx/app/webroot/index.php(83): Dispatcher->dispatch()
+#6 {main}
+  thrown in /home/bizboxmx/betty.bizbox.mx/cake/libs/cake_object.php on line 201
+[06-Feb-2020 19:41:41 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'ErrorHandler' not found in /home/bizboxmx/betty.bizbox.mx/cake/libs/cake_object.php:201
+Stack trace:
+#0 /home/bizboxmx/betty.bizbox.mx/cake/libs/controller/component.php(215): CakeObject->cakeError('missingComponen...', Array)
+#1 /home/bizboxmx/betty.bizbox.mx/cake/libs/controller/component.php(78): Component->_loadComponents(Object(WebController))
+#2 /home/bizboxmx/betty.bizbox.mx/cake/libs/controller/controller.php(483): Component->init(Object(WebController))
+#3 /home/bizboxmx/betty.bizbox.mx/cake/dispatcher.php(186): Controller->constructClasses()
+#4 /home/bizboxmx/betty.bizbox.mx/cake/dispatcher.php(171): Dispatcher->_invoke(Object(WebController), Array)
+#5 /home/bizboxmx/betty.bizbox.mx/app/webroot/index.php(83): Dispatcher->dispatch()
+#6 {main}
+  thrown in /home/bizboxmx/betty.bizbox.mx/cake/libs/cake_object.php on line 201
+[06-Feb-2020 19:42:27 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'Usuarios' not found in /home/bizboxmx/betty.bizbox.mx/cake/libs/class_registry.php:142
+Stack trace:
+#0 /home/bizboxmx/betty.bizbox.mx/cake/libs/controller/controller.php(636): ClassRegistry::init('Usuarios')
+#1 /home/bizboxmx/betty.bizbox.mx/cake/libs/controller/controller.php(502): Controller->loadModel('Usuarios')
+#2 /home/bizboxmx/betty.bizbox.mx/cake/dispatcher.php(186): Controller->constructClasses()
+#3 /home/bizboxmx/betty.bizbox.mx/cake/dispatcher.php(171): Dispatcher->_invoke(Object(WebController), Array)
+#4 /home/bizboxmx/betty.bizbox.mx/app/webroot/index.php(83): Dispatcher->dispatch()
+#5 {main}
+  thrown in /home/bizboxmx/betty.bizbox.mx/cake/libs/class_registry.php on line 142
+[06-Feb-2020 19:43:34 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'ErrorHandler' not found in /home/bizboxmx/betty.bizbox.mx/cake/libs/cake_object.php:201
+Stack trace:
+#0 /home/bizboxmx/betty.bizbox.mx/cake/libs/view/view.php(956): CakeObject->cakeError('missingLayout', Array)
+#1 /home/bizboxmx/betty.bizbox.mx/cake/libs/view/view.php(918): View->_missingView('/home/bizboxmx/...', 'missingLayout')
+#2 /home/bizboxmx/betty.bizbox.mx/cake/libs/view/view.php(472): View->_getLayoutFileName('web')
+#3 /home/bizboxmx/betty.bizbox.mx/cake/libs/view/view.php(440): View->renderLayout('<div id="intro_...', 'web')
+#4 /home/bizboxmx/betty.bizbox.mx/cake/libs/controller/controller.php(909): View->render(NULL, 'web', NULL)
+#5 /home/bizboxmx/betty.bizbox.mx/cake/dispatcher.php(207): Controller->render()
+#6 /home/bizboxmx/betty.bizbox.mx/cake/dispatcher.php(171): Dispatcher->_invoke(Object(WebController), Array)
+#7 /home/bizboxmx/betty.bizbox.mx/app/webroot/index.php(83): Dispatcher->dispatch()
+#8 {main}
+  thrown in /home/bizboxmx/betty.bizbox.mx/cake/libs/cake_object.php on line 201
+[06-Feb-2020 19:43:46 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'ErrorHandler' not found in /home/bizboxmx/betty.bizbox.mx/cake/libs/cake_object.php:201
+Stack trace:
+#0 /home/bizboxmx/betty.bizbox.mx/cake/libs/view/view.php(956): CakeObject->cakeError('missingLayout', Array)
+#1 /home/bizboxmx/betty.bizbox.mx/cake/libs/view/view.php(918): View->_missingView('/home/bizboxmx/...', 'missingLayout')
+#2 /home/bizboxmx/betty.bizbox.mx/cake/libs/view/view.php(472): View->_getLayoutFileName('web')
+#3 /home/bizboxmx/betty.bizbox.mx/cake/libs/view/view.php(440): View->renderLayout('<div id="intro_...', 'web')
+#4 /home/bizboxmx/betty.bizbox.mx/cake/libs/controller/controller.php(909): View->render(NULL, 'web', NULL)
+#5 /home/bizboxmx/betty.bizbox.mx/cake/dispatcher.php(207): Controller->render()
+#6 /home/bizboxmx/betty.bizbox.mx/cake/dispatcher.php(171): Dispatcher->_invoke(Object(WebController), Array)
+#7 /home/bizboxmx/betty.bizbox.mx/app/webroot/index.php(83): Dispatcher->dispatch()
+#8 {main}
+  thrown in /home/bizboxmx/betty.bizbox.mx/cake/libs/cake_object.php on line 201
+[06-Feb-2020 19:45:16 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'ErrorHandler' not found in /home/bizboxmx/betty.bizbox.mx/cake/libs/cake_object.php:201
+Stack trace:
+#0 /home/bizboxmx/betty.bizbox.mx/cake/libs/view/view.php(956): CakeObject->cakeError('missingLayout', Array)
+#1 /home/bizboxmx/betty.bizbox.mx/cake/libs/view/view.php(918): View->_missingView('/home/bizboxmx/...', 'missingLayout')
+#2 /home/bizboxmx/betty.bizbox.mx/cake/libs/view/view.php(472): View->_getLayoutFileName('web')
+#3 /home/bizboxmx/betty.bizbox.mx/cake/libs/view/view.php(440): View->renderLayout('<p>Hola</p>', 'web')
+#4 /home/bizboxmx/betty.bizbox.mx/cake/libs/controller/controller.php(909): View->render(NULL, 'web', NULL)
+#5 /home/bizboxmx/betty.bizbox.mx/cake/dispatcher.php(207): Controller->render()
+#6 /home/bizboxmx/betty.bizbox.mx/cake/dispatcher.php(171): Dispatcher->_invoke(Object(WebController), Array)
+#7 /home/bizboxmx/betty.bizbox.mx/app/webroot/index.php(83): Dispatcher->dispatch()
+#8 {main}
+  thrown in /home/bizboxmx/betty.bizbox.mx/cake/libs/cake_object.php on line 201
+[06-Feb-2020 19:45:21 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'ErrorHandler' not found in /home/bizboxmx/betty.bizbox.mx/cake/libs/cake_object.php:201
+Stack trace:
+#0 /home/bizboxmx/betty.bizbox.mx/cake/libs/view/view.php(956): CakeObject->cakeError('missingLayout', Array)
+#1 /home/bizboxmx/betty.bizbox.mx/cake/libs/view/view.php(918): View->_missingView('/home/bizboxmx/...', 'missingLayout')
+#2 /home/bizboxmx/betty.bizbox.mx/cake/libs/view/view.php(472): View->_getLayoutFileName('web')
+#3 /home/bizboxmx/betty.bizbox.mx/cake/libs/view/view.php(440): View->renderLayout('<p>Hola</p>', 'web')
+#4 /home/bizboxmx/betty.bizbox.mx/cake/libs/controller/controller.php(909): View->render(NULL, 'web', NULL)
+#5 /home/bizboxmx/betty.bizbox.mx/cake/dispatcher.php(207): Controller->render()
+#6 /home/bizboxmx/betty.bizbox.mx/cake/dispatcher.php(171): Dispatcher->_invoke(Object(WebController), Array)
+#7 /home/bizboxmx/betty.bizbox.mx/app/webroot/index.php(83): Dispatcher->dispatch()
+#8 {main}
+  thrown in /home/bizboxmx/betty.bizbox.mx/cake/libs/cake_object.php on line 201
+[06-Feb-2020 19:53:54 America/Mexico_City] PHP Parse error:  syntax error, unexpected '}' in /home/bizboxmx/betty.bizbox.mx/app/controllers/web_controller.php on line 22
+[06-Feb-2020 19:54:17 America/Mexico_City] PHP Parse error:  syntax error, unexpected '}' in /home/bizboxmx/betty.bizbox.mx/app/controllers/web_controller.php on line 22
+[06-Feb-2020 20:34:12 America/Mexico_City] PHP Parse error:  syntax error, unexpected end of file in /home/bizboxmx/betty.bizbox.mx/app/controllers/web_controller.php on line 35
+[06-Feb-2020 20:34:43 America/Mexico_City] PHP Parse error:  syntax error, unexpected end of file in /home/bizboxmx/betty.bizbox.mx/app/controllers/web_controller.php on line 36
+[06-Feb-2020 20:35:04 America/Mexico_City] PHP Parse error:  syntax error, unexpected end of file in /home/bizboxmx/betty.bizbox.mx/app/controllers/web_controller.php on line 36
+[06-Feb-2020 20:35:28 America/Mexico_City] PHP Parse error:  syntax error, unexpected end of file in /home/bizboxmx/betty.bizbox.mx/app/controllers/web_controller.php on line 36
+[06-Feb-2020 20:38:05 America/Mexico_City] PHP Parse error:  syntax error, unexpected end of file in /home/bizboxmx/betty.bizbox.mx/app/controllers/web_controller.php on line 39
+[06-Feb-2020 20:38:28 America/Mexico_City] PHP Parse error:  syntax error, unexpected end of file in /home/bizboxmx/betty.bizbox.mx/app/controllers/web_controller.php on line 37
+[07-Feb-2020 11:46:51 America/Mexico_City] PHP Parse error:  syntax error, unexpected end of file in /home/bizboxmx/betty.bizbox.mx/app/controllers/web_controller.php on line 37
+[07-Feb-2020 11:46:56 America/Mexico_City] PHP Parse error:  syntax error, unexpected end of file in /home/bizboxmx/betty.bizbox.mx/app/controllers/web_controller.php on line 37
+[07-Feb-2020 11:48:02 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'ErrorHandler' not found in /home/bizboxmx/betty.bizbox.mx/cake/libs/cake_object.php:201
+Stack trace:
+#0 /home/bizboxmx/betty.bizbox.mx/cake/dispatcher.php(201): CakeObject->cakeError('missingAction', Array)
+#1 /home/bizboxmx/betty.bizbox.mx/cake/dispatcher.php(171): Dispatcher->_invoke(Object(WebController), Array)
+#2 /home/bizboxmx/betty.bizbox.mx/app/webroot/index.php(83): Dispatcher->dispatch()
+#3 {main}
+  thrown in /home/bizboxmx/betty.bizbox.mx/cake/libs/cake_object.php on line 201

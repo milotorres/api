@@ -76,9 +76,9 @@ class DATABASE_CONFIG {
 		'driver' => 'mysqli',
 		'persistent' => false,
 		'host' => 'bizbox.dev',
-		'login' => 'bizbox_enxona',
-		'password' => 'bizbox_enxona',
-		'database' => 'bizbox_enxona',
+		'login' => 'bizbox_clase',
+		'password' => 'bizbox_clase',
+		'database' => 'bizbox_clase',
         'prefix' => '',
 		'encoding' => 'utf8'
 	);

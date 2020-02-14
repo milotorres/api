@@ -3,7 +3,7 @@
 	{
 		var $name = 'Web';
 	
-		var $uses = array('Usuarios');
+		var $uses = array('BusinessCategories');
 	
 		var $helpers = array('Html','Form','Javascript','Ajax','Session');
 		
@@ -11,25 +11,56 @@
 		
 		function beforeFilter() 
 		{
-			$this->layout = 'json';
+			$theme = "/files/";
+			$this->set('theme',$theme);
+			$this->layout = 'web';
 		} 
 		
 		function index($search = null)
 		{
-		     if(!empty($search)){
-		        
-		        $condition = "'%".$search."%'";
-		        $usuario = $this->Usuarios->query("SELECT * FROM usuarios WHERE name LIKE $condition");
-		        
-    			$json = json_encode($usuario);
-    			$this->set('json',$json);
-		        
-		    }else{
-		        $usuarios = $this->Usuarios->find('all');
-    			$json = json_encode($usuarios);
-    			$this->set('json',$json);
-		    }
 		   
 		}
+		function functioning(){
+
+        }
+        function about(){
+
+        }
+        function contacts(){
+
+        }
+
+        function listing(){
+
+        }
+
+        function listing_single(){
+
+        }
+        function dashboard_listing(){
+
+        }
+
+        function message_dashboard(){
+
+        }
+        function change_password(){
+
+        }
+        function dashboard_table(){
+
+        }
+        function myprofile(){
+
+        }
+
+
+        //how-itworks.html*
+		//about.html*
+		//contacts.html*
+		//dashboard-myprofile.html*
+		//dashboard-add-listing.html*
+		//listing.html*
+		//listing-single.html*
 	}
 ?>

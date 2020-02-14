@@ -27,7 +27,12 @@
  * to use (in this case, /app/views/pages/home.ctp)... 
  */
 
-    Router::connect('/api/bi_categories_getall', array('controller' => 'api', 'action' => 'bi_categories_getall'));
+    Router::connect('/api/bi_categories/all', array('controller' => 'api', 'action' => 'bi_categories_getall'));
+    Router::connect('/api/bi_categories/', array('controller' => 'api', 'action' => 'bi_categories_get_id'));
+	Router::connect('/api/bi_categories/search', array('controller' => 'api', 'action' => 'bi_categories_search'));
+	Router::connect('/api/bi_categories/update', array('controller' => 'api', 'action' => 'bi_categories_update'));
+	Router::connect('/api/bi_categories/delete', array('controller' => 'api', 'action' => 'bi_categories_delete'));
+	Router::connect('/api/bi_categories/create', array('controller' => 'api', 'action' => 'bi_categories_create'));
 /**
  * ...and connect the rest of 'Pages' controller's urls.
  */

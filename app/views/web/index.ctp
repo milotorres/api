@@ -193,7 +193,7 @@
 			<!-- carousel --> 
 			<div class="list-carousel fl-wrap card-listing ">
 				<!--listing-carousel-->
-				<div class="listing-carousel  fl-wrap ">
+				<div id="descriptions" class="listing-carousel  fl-wrap ">
 					                           
 				</div>
 				<!--listing-carousel end-->
